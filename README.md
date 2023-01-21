@@ -1,4 +1,4 @@
-# Decentralized Consumer Pool.
+# Decentralized Consumer Pool
 
 The concept of the project is to be an open marketplace where users can submit goods and their respective prices in both ETH and USD for a consumer to avail and purchase.
 
