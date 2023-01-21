@@ -1,4 +1,4 @@
-# This project is a Decentralized Consumer Pool.
+# Decentralized Consumer Pool.
 
 The concept of the project is to be an open marketplace where users can submit goods and their respective prices in both ETH and USD for a consumer to avail and purchase.
 
@@ -11,6 +11,7 @@ The actions of the project envelop the following:
 4. Reset Price: A member who submitted its product into the pool may reconsider its price - therefore, there is a function that allows so. It is valid to remember that this function will inherit a modifier, to check whether the call has been made by the owner of the product or not.
 
 - Project Attributes
+
 This project has been developed via Brownie, in order to automize testing and debugging in a forked environment in Ganache, provided by an Alchemy URL, as well as in development chains native to Ganache. 
 Therefore, this GitHub repo will contain the MockV3Aggregator for the AggregatorV3Interface for local chains, as well as a Price Feed Address for the Mainnet Fork. 
 The testing utilizing testnets such as Goerli has been mostly done in interactive testing via Remix IDE, so files for brownie testing are still under development. Not to mention, some scaling for this project is still required for working with Testnets.
